@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Bootstrap Template</title>
+    <title>Arrow - Prefabricated Pumping Stations</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="">
+    <meta name="description" content="pumping stations, lift stations, prefabricated pumping stations, prefabricated lift stations, walk-in lift stations">
     
     <link rel="shortcut icon" href="./favicon.png">
     
@@ -23,10 +23,10 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container">
+    <div id="wrapper" class="container">
 
       <!-- Static navbar -->
-      <div class="navbar navbar-default" role="navigation">
+      <header class="navbar navbar-default" role="navigation">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
@@ -34,44 +34,60 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <h1 id="logo"><a href="./" title="Arrow - Prefabricated Pumping Stations"><img src="assets/images/header.jpg" width="354" height="99" alt="Arrow logo" /></a></h1>
+          <div id="header-info" class="hidden-xs">
+            <span class="manufactured-by">
+              Manufactured by
+              <a href="http://www.starnettech.com/"><img src="./images/starnet-logo.png" alt="Starnet Technologies, Inc." width="150" height="49" /></a>
+            </span>
+          </div><!-- end headerInfo-->
         </div>
-        <div class="navbar-collapse collapse">
+        <nav class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
+            <li class="hidden-xs"><a href="./">Home</a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
+                <li><a href="#">Module L55</a></li>
+                <li><a href="#">Module L88</a></li>
+                <li><a href="#">Module G1020V</a></li>
+                <li><a href="#">Module MCX</a></li>
               </ul>
             </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Representatives <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Illinois</a></li>
+                <li><a href="#">Indiana</a></li>
+                <li><a href="#">Iowa</a></li>
+                <li><a href="#">Michigan</a></li>
+                <li><a href="#">Minnesota</a></li>
+                <li><a href="#">Nebraska</a></li>
+                <li><a href="#">North Dakota</a></li>
+                <li><a href="#">South Dakota</a></li>
+                <li><a href="#">Wisconsin</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Site Map</a></li>
           </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="./">Default</a></li>
-            <li><a href="#">Static top</a></li>
-            <li><a href="#">Fixed top</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
+          <span id="navbar-search">
+            <script>
+                (function() {
+                    var cx = '017165321553929725201:muqck8ddidw';
+                    var gcse = document.createElement('script'); gcse.type = 'text/javascript';
+                    gcse.async = true;
+                    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                        '//www.google.com/cse/cse.js?cx=' + cx;
+                    var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(gcse, s);
+                })();
+            </script>
+            <gcse:search></gcse:search>
+          </span><!--/#search -->
+        </nav><!--/.nav-collapse -->
+      </header>
 
-      <!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <h1>Navbar example</h1>
-        <p>This example is a quick exercise to illustrate how the default, static navbar and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-        <p>
-          <a class="btn btn-lg btn-primary" href="#" role="button">View navbar docs &raquo;</a>
-        </p>
-      </div>
-
-    </div> <!-- /container -->
+    </div> <!-- /#wrapper -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery.js"></script>

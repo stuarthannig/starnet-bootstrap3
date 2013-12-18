@@ -16,7 +16,7 @@ article h2 {
     color: #9a001f;
 }
 article h2:first-child {
-  margin-top: 0;
+  margin-top: 15px;
 }
 article h3 {
     font-size: 14px;
@@ -226,6 +226,20 @@ input.gsc-input {font-size: 14px !important}
     text-decoration: none;
 }
 
+aside section h4 {
+    background-color: #9a001f;
+    color: #FFF;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+aside section p {
+    margin-bottom: 20px;
+    padding: 0px 2px 0px 2px;
+    font-size: 12px;
+    line-height: 175%;
+}
 
 
 /* 
@@ -255,11 +269,14 @@ input.gsc-input {font-size: 14px !important}
   #wrapper {
     box-shadow: 0 50px 100px 0 #cccc99;
   }
-
+  
   #logo img {
     padding: 0
   }
-
+  
+  .navbar {
+    margin-bottom: 10px;
+  }
   .navbar-default {
     border: none;
   }

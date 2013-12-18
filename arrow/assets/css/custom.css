@@ -1,3 +1,71 @@
+body  a {
+    color: #9a001f;
+    text-decoration: none;
+}
+body  a:hover {
+    text-decoration: underline;
+}
+
+article {
+  padding-bottom: 20px;
+}
+article h2 {
+    font-family: Georgia, serif;
+    font-weight: normal;
+    font-size: 24px;
+    color: #9a001f;
+}
+article h2:first-child {
+  margin-top: 0;
+}
+article h3 {
+    font-size: 14px;
+    font-weight: bold;
+}
+article h4 {
+    font-family: Georgia, serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: #333;
+}
+article h5 {
+    font-family: Georgia, serif;
+    font-weight: normal;
+}
+
+article table {
+    border-collapse:collapse;
+}
+
+#documents  ul {
+    margin: 15px 0;
+    padding: 0;
+    line-height: 300%;
+}
+#documents  ul li {
+    padding-right: 4px;
+    display: inline-block;
+}
+#documents  ul li:first-child {
+  padding-right: 0;
+}
+#documents  ul li a {
+    background: #dedede;
+    padding: 6px 5px 6px 5px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+#documents  ul li a img {
+    vertical-align: middle;
+    padding-right: 5px;
+}
+#documents  ul li a:hover {
+    background: #bebebe;
+    text-decoration: none;
+}
+
 /* Header
 ----------------------------------------------------------------------------------------------------*/
 #logo {
@@ -125,6 +193,17 @@ input.gsc-input {font-size: 14px !important}
     padding-bottom: 5px;
   }
   
+  body  h2 {
+    font-size: 24px;
+  }
+  body  h3 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  body h4 {
+      font-size: 18px;
+  }
+
   #wrapper {
     box-shadow: 0 50px 100px 0 #cccc99;
   }
@@ -154,6 +233,10 @@ input.gsc-input {font-size: 14px !important}
     width: 220px;
     max-height: 50px;
     padding-top: 5px;
+  }
+  
+  #documents  ul li a {
+    font-size: 13px;
   }
   
 }

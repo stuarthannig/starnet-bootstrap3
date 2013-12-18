@@ -37,35 +37,6 @@ article table {
     border-collapse:collapse;
 }
 
-#documents  ul {
-    margin: 15px 0;
-    padding: 0;
-    line-height: 300%;
-}
-#documents  ul li {
-    padding-right: 4px;
-    display: inline-block;
-}
-#documents  ul li:first-child {
-  padding-right: 0;
-}
-#documents  ul li a {
-    background: #dedede;
-    padding: 6px 5px 6px 5px;
-    font-size: 10px;
-    font-weight: bold;
-    color: #333;
-    text-decoration: none;
-}
-#documents  ul li a img {
-    vertical-align: middle;
-    padding-right: 5px;
-}
-#documents  ul li a:hover {
-    background: #bebebe;
-    text-decoration: none;
-}
-
 /* Header
 ----------------------------------------------------------------------------------------------------*/
 #logo {
@@ -177,6 +148,34 @@ input.gsc-input {font-size: 14px !important}
 ----------------------------------------------------------------------------------------------------*/
 
 
+#documents  ul {
+    margin: 15px 0;
+    padding: 0;
+    line-height: 300%;
+}
+#documents  ul li {
+    padding-right: 4px;
+    display: inline-block;
+}
+#documents  ul li:first-child {
+  padding-right: 0;
+}
+#documents  ul li a {
+    background: #dedede;
+    padding: 6px 5px 6px 5px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+#documents  ul li a img {
+    vertical-align: middle;
+    padding-right: 5px;
+}
+#documents  ul li a:hover {
+    background: #bebebe;
+    text-decoration: none;
+}
 
 
 
@@ -224,7 +223,7 @@ input.gsc-input {font-size: 14px !important}
     border-bottom: 2px solid #666;
   }
   .navbar-nav > li.dropdown .dropdown-menu li:last-child {
-      padding-bottom: 20px;
+    padding-bottom: 20px;
   }
   
   #navbar-search {
@@ -233,6 +232,55 @@ input.gsc-input {font-size: 14px !important}
     width: 220px;
     max-height: 50px;
     padding-top: 5px;
+  }
+  
+  #product-buttons {
+    text-align: center;
+  }
+  #product-buttons .background{
+    border-radius: 5px; /* future proofing */
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+    background-color: #521312;
+    background-image: url(../img/button-bg.gif);
+    background-repeat: repeat-x;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#b52126), to(#501312));
+    background-image: -webkit-linear-gradient(top, #b52126, #501312);
+    background-image:    -moz-linear-gradient(top, #b52126, #501312);
+    background-image:     -ms-linear-gradient(top, #b52126, #501312);
+    background-image:      -o-linear-gradient(top, #b52126, #501312);
+    background-image:         linear-gradient(to bottom, #b52126, #501312);
+    display:inline-block;
+    /* For IE 7 */
+    zoom: 1;
+    *display: inline;
+  }
+  #product-buttons .background:hover {
+    cursor: pointer;
+    text-decoration: none;
+
+    background-color: #b52126;
+    background-image: none;
+  }
+  #product-buttons .background > span {
+    text-align: center;
+    margin: 2px;
+    display: block;
+  }
+  #product-buttons a {
+    font-weight: bold;
+    color: #fff;
+  }
+  #product-buttons span.image{
+    margin: 10px 10px 5px 10px;
+  }
+  #product-buttons span.brand{
+    font-size: 12px;
+  }
+  #product-buttons span.model{
+    font-size: 16px;
+    margin-bottom: 5px;
   }
   
   #documents  ul li a {

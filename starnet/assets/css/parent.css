@@ -1,0 +1,340 @@
+body a {
+    color: #00207E;
+    text-decoration: none;
+}
+body  a:hover {
+  text-decoration: underline;
+}
+#wrapper {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+/* Header
+----------------------------------------------------------------------------------------------------*/
+#logo {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+#logo img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  padding: 0 15px;
+}
+
+#header-info {
+  font-weight: bold;
+  color: #333333;
+  margin: 10px 50px 0 0;
+  float: right;
+}
+.manufactured-by {
+  text-align: center;
+  display: block;
+}
+.manufactured-by a {
+  display: block;
+  margin-top: 5px;
+}
+
+.navbar-default {
+  background-color: #fff;
+}
+.navbar-default .navbar-collapse {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase; 
+  
+  background-color: #d7d7d7;
+  background-image: url(../images/navbar-bg.gif);
+  background-repeat: repeat-x;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f4f4f4), to(#d7d7d7));
+  background-image: -webkit-linear-gradient(top, #f4f4f4, #d7d7d7);
+  background-image:    -moz-linear-gradient(top, #f4f4f4, #d7d7d7);
+  background-image:     -ms-linear-gradient(top, #f4f4f4, #d7d7d7);
+  background-image:      -o-linear-gradient(top, #f4f4f4, #d7d7d7);
+  background-image:         linear-gradient(to bottom, #f4f4f4, #d7d7d7);
+}
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:visited,
+.navbar-default .navbar-nav > li > a:active,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #00207e;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-nav > li:hover, .navbar-default  .navbar-nav > li.active, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  background-color: #00207e;
+  background-image: url(../img/navbar-bg-hover.gif);
+  background-repeat: repeat-x;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#00207e), to(#002cb1));
+  background-image: -webkit-linear-gradient(top, #00207e, #002cb1);
+  background-image:    -moz-linear-gradient(top, #00207e, #002cb1);
+  background-image:     -ms-linear-gradient(top, #00207e, #002cb1);
+  background-image:      -o-linear-gradient(top, #00207e, #002cb1);
+  background-image:         linear-gradient(to bottom, #00207e, #002cb1);
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #fff;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+  color: #fff;
+}
+.navbar-default .navbar-nav > li:hover a:hover {
+  color: #fff;
+}
+.navbar-default .navbar-nav > li.dropdown .dropdown-menu {
+  background: #666;
+}
+.navbar-default .navbar-nav > li.dropdown .dropdown-menu li a {
+  color: #fff;
+  text-transform: none;
+}
+.navbar-default .navbar-nav > li.dropdown .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  background-color: #777;
+}
+.dropdown-menu > li.more{
+  text-align: right;
+}
+.navbar-default .navbar-nav > li.dropdown .dropdown-menu li.more a {
+  color: #aaa;
+}
+.dropdown-menu .divider {
+    background-color: #777;
+}
+
+/* Google custom search
+----------------------------------------------------------------------------------------------------*/
+table.gsc-search-box td {
+  vertical-align: top !important;
+}
+.cse .gsc-search-button input.gsc-search-button-v2, input.gsc-search-button-v2 {
+  height: auto !important;
+  width: auto !important;
+  margin-top: -5px !important;
+}
+.cse .gsc-control-cse, .gsc-control-cse {
+  background-color: transparent !important;
+  border: none !important;
+}
+.cse .gsc-control-cse, .gsc-control-cse {padding: 7px 6px 6px 0 !important}
+.cse input.gsc-input,input.gsc-input{background-image: none !important}
+input.gsc-input {font-size: 14px !important}
+.cse .gsc-search-button input.gsc-search-button-v2, input.gsc-search-button-v2 {
+  padding: 6px 10px !important;
+  margin-top: 0 !important;
+}
+.cse input.gsc-search-button, input.gsc-search-button {
+  background-color: #002CB1 !important;
+  background-image: -moz-linear-gradient(center top , #002CB1, #00207E) !important;
+  border: 1px solid #00207E !important;
+}
+
+/* Content
+----------------------------------------------------------------------------------------------------*/
+article {
+  padding-bottom: 20px;
+}
+article h2 {
+  font-family: Georgia, serif;
+  font-weight: normal;
+  font-size: 24px;
+  color: #00207E;
+}
+article h2:first-child {
+  margin-top: 15px;
+}
+article h3 {
+  font-size: 14px;
+  font-weight: bold;
+}
+article h4 {
+  font-family: Georgia, serif;
+  font-weight: normal;
+  font-size: 14px;
+  color: #333;
+}
+article h5 {
+  font-family: Georgia, serif;
+  font-weight: normal;
+}
+article table {
+  border-collapse: collapse;
+}
+
+#documents  ul {
+  margin: 15px 0;
+  padding: 0;
+  line-height: 300%;
+}
+#documents  ul li {
+  padding-right: 4px;
+  display: inline-block;
+}
+#documents  ul li:first-child {
+  padding-right: 0;
+}
+#documents  ul li a {
+  background: #dedede;
+  padding: 6px 5px 6px 5px;
+  font-size: 10px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+#documents  ul li a img {
+  vertical-align: middle;
+  padding-right: 5px;
+}
+#documents  ul li a:hover {
+  background: #bebebe;
+  text-decoration: none;
+}
+
+aside section h4 {
+  background-color: #00207e;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+}
+aside section p {
+  margin-bottom: 20px;
+  padding: 0px 2px 0px 2px;
+  font-size: 12px;
+  line-height: 175%;
+}
+
+/* Footer
+----------------------------------------------------------------------------------------------------*/
+footer {
+  margin: 30px 0 -5px 0;
+  color: #fff;
+  padding: 10px 0;
+  
+  background-color: #00207e;
+  background-image: url(../img/footer-bg.gif);
+  background-repeat: repeat-x;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#002cb1), to(#00207e));
+  background-image: -webkit-linear-gradient(top, #002cb1, #00207e);
+  background-image:    -moz-linear-gradient(top, #002cb1, #00207e);
+  background-image:     -ms-linear-gradient(top, #002cb1, #00207e);
+  background-image:      -o-linear-gradient(top, #002cb1, #00207e);
+  background-image:         linear-gradient(to bottom, #002cb1, #00207e);
+  display:inline-block;
+  /* For IE 7 */
+  zoom: 1;
+  *display: inline;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+footer h5 {
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+footer ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+footer ul li a {
+  color: #eee;
+  font-size: 12px;
+}
+
+#copyright, #design-by {
+  margin-top: 35px; 
+}
+
+
+
+/* 
+#
+##
+### Small devices (tablets, 768px and up)
+##
+#
+*/
+@media(min-width:768px){
+  body  h2 {
+    font-size: 24px;
+  }
+  body  h3 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  body h4 {
+    font-size: 18px;
+  }
+
+  #wrapper {
+    padding-top: 5px;
+    box-shadow: 0 50px 100px 0 #cccc99;
+  }
+
+  #logo img {
+    padding: 0
+  }
+
+  .navbar {
+    margin-bottom: 10px;
+  }
+  .navbar-default {
+    border: none;
+  }
+  .navbar-header {
+    float: none;
+  }
+  .navbar-default .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+    border-bottom: 2px solid #666;
+  }
+
+  #navbar-search {
+    float: right;
+    text-align: right;
+    width: 220px;
+    max-height: 50px;
+    padding-top: 5px;
+  }
+
+  #documents  ul li a {
+    font-size: 13px;
+  }
+
+  footer nav {
+    background: url("../images/footer-border.png") repeat-y scroll 0 0 transparent;
+  }
+  footer nav:first-child {
+    background: none
+  }
+
+  #copyright {
+    padding-left: 20px;
+  }
+  #design-by {
+    padding-right: 20px;
+    text-align: right;
+  }
+}
+/* Medium devices (desktops, 992px and up) */
+@media(min-width:992px){}
+/* Large devices (large desktops, 1200px and up) */
+@media(min-width:1200px){
+  #product-buttons .button{
+    margin: 0 5px;
+  }
+  #product-buttons img{
+    margin: 10px 20px 5px 20px;
+  }
+}

@@ -121,6 +121,15 @@ article table {
 .navbar-default .navbar-nav > li.dropdown .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
   background-color: #777;
 }
+.dropdown-menu > li.more{
+  text-align: right;
+}
+.navbar-default .navbar-nav > li.dropdown .dropdown-menu li.more a {
+  color: #aaa;
+}
+.dropdown-menu .divider {
+    background-color: #777;
+}
 
 /* Google custom search
 ----------------------------------------------------------------------------------------------------*/
@@ -342,9 +351,6 @@ footer .col-topper {
     padding-left: 0;
     padding-right: 0;
     border-bottom: 2px solid #666;
-  }
-  .navbar-nav > li.dropdown .dropdown-menu li:last-child {
-    padding-bottom: 20px;
   }
 
   #navbar-search {

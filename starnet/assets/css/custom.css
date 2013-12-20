@@ -1,17 +1,47 @@
-.ul-certified {
+a.ul-certified, a:hover.ul-certified {
+  color: #000;
+  text-decoration: none;
+}
+.ul-certified div {
   margin-top: 15px;
   background-color: #e7e7e7;
   font-weight: bold;
   border-radius: 10px;
   padding: 8px;
-  font-size: 18px;
+  font-size: 12px;
   cursor: pointer;
+  float: left;
 }
-a.ul, a:hover.ul {
-  color: #000;
-  text-decoration: none;
-}
+
 .ul-certified img {
-  margin-right: 16px;
   vertical-align: middle;
+  float: left;
+  display: inline-block;
 }
+
+
+/* 
+#
+##
+### Small devices (tablets, 768px and up)
+##
+#
+*/
+@media(min-width:768px){
+  .ul-certified div {
+    font-size: 18px;
+  }
+  .ul-certified img {
+    margin-right: 16px;
+  }
+  .ul-certified span {
+    margin-top: 20px;
+    display: inline-block !important;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media(min-width:992px){}
+
+/* Large devices (large desktops, 1200px and up) */
+@media(min-width:1200px){}

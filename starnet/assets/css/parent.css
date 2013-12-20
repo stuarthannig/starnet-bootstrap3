@@ -255,6 +255,9 @@ footer ul li a {
   color: #eee;
   font-size: 12px;
 }
+footer li ul {
+  padding-left: 15px;
+}
 
 #copyright, #design-by {
   margin-top: 35px; 
@@ -332,6 +335,7 @@ footer ul li a {
     text-align: right;
   }
 }
+
 /* Medium devices (desktops, 992px and up) */
 @media(min-width:992px){}
 /* Large devices (large desktops, 1200px and up) */

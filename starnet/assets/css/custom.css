@@ -1,3 +1,20 @@
+.carousel-caption {
+  background: none repeat scroll 0 0 #000000;
+  bottom: 0;
+  left: 0;
+  opacity: 0.7;
+  overflow: hidden;
+  padding: 0 0 0 15px;
+  width: 100%;
+  text-align: left;
+}
+.carousel-caption h3 {
+  font-family: Georgia,serif;
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 10px;
+}
+
 a.ul-certified, a:hover.ul-certified {
   color: #000;
   text-decoration: none;
@@ -12,7 +29,6 @@ a.ul-certified, a:hover.ul-certified {
   cursor: pointer;
   float: left;
 }
-
 .ul-certified img {
   vertical-align: middle;
   float: left;
@@ -53,6 +69,7 @@ a.ul-certified, a:hover.ul-certified {
 @media(min-width:768px){
   .ul-certified div {
     font-size: 18px;
+    width: 100%;
   }
   .ul-certified img {
     margin-right: 16px;

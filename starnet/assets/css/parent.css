@@ -172,6 +172,9 @@ article table {
   border-collapse: collapse;
 }
 
+#documents {
+  margin-bottom: 15px;
+}
 #documents ul {
   margin: 15px 0;
   padding: 0;
@@ -201,6 +204,31 @@ article table {
   text-decoration: none;
 }
 
+div.info {
+  margin-top: 25px;
+}
+.info h3 {
+  border-bottom: 1px dotted #222222;
+  margin: 0 0 10px
+}
+.info ul {
+  padding-left: 15px;
+}
+.info table {
+  border-color: #CCC;
+  width: 100%;
+}
+.info td {
+  padding: 5px 10px;
+  border-bottom: 1px solid #ccc;
+}
+.info td.attribute {
+  border-right: 1px solid #ccc;
+}
+.info td.last {
+  border-bottom: none;
+}
+
 aside section h4 {
   background-color: #00207e;
   color: #fff;
@@ -216,10 +244,40 @@ aside section p {
   line-height: 175%;
 }
 
+/* `gallery
+----------------------------------------------------------------------------------------------------*/
+#gallery {
+    margin-bottom: 0px;
+}
+#gallery section h4 {
+  color: #333333;
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-weight: normal;
+  background: none;
+  padding: 0;
+  margin: 15px 0 0 0;
+}
+#gallery  img.thumb {
+    padding: 5px;
+}
+#gallery #full-size {
+    position: relative;
+    max-width: 100%;
+    max-height:300px;
+    overflow: hidden;
+    background-color: #666;
+    text-align: center;
+}
+#gallery #full-size img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Footer
 ----------------------------------------------------------------------------------------------------*/
 footer {
-  margin: 30px 0 -5px 0;
+  margin: 20px 0 -5px 0;
   color: #fff;
   padding: 10px 0;
   
@@ -290,6 +348,8 @@ footer li ul {
 
   #wrapper {
     padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
     box-shadow: 0 50px 100px 0 #cccc99;
   }
 

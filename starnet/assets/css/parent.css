@@ -1,8 +1,12 @@
-body a {
-    color: #00207E;
-    text-decoration: none;
+body a,
+body a:visited,
+body a:active,
+body a:focus {
+  color: #00207E;
+  text-decoration: none;
 }
 body  a:hover {
+  color: #00207E;
   text-decoration: underline;
 }
 #wrapper {
@@ -168,19 +172,19 @@ article table {
   border-collapse: collapse;
 }
 
-#documents  ul {
+#documents ul {
   margin: 15px 0;
   padding: 0;
   line-height: 300%;
 }
-#documents  ul li {
+#documents ul li {
   padding-right: 4px;
   display: inline-block;
 }
-#documents  ul li:first-child {
+#documents ul li:first-child {
   padding-right: 0;
 }
-#documents  ul li a {
+#documents ul li a {
   background: #dedede;
   padding: 6px 5px 6px 5px;
   font-size: 10px;
@@ -188,11 +192,11 @@ article table {
   color: #333;
   text-decoration: none;
 }
-#documents  ul li a img {
+#documents ul li a img {
   vertical-align: middle;
   padding-right: 5px;
 }
-#documents  ul li a:hover {
+#documents ul li a:hover {
   background: #bebebe;
   text-decoration: none;
 }
@@ -228,10 +232,6 @@ footer {
   background-image:     -ms-linear-gradient(top, #002cb1, #00207e);
   background-image:      -o-linear-gradient(top, #002cb1, #00207e);
   background-image:         linear-gradient(to bottom, #002cb1, #00207e);
-  display:inline-block;
-  /* For IE 7 */
-  zoom: 1;
-  *display: inline;
 }
 footer a,
 footer a:visited,
@@ -247,12 +247,12 @@ footer a:hover {
 footer h5 {
   font-weight: bold;
   font-size: 14px;
-  margin-left: 20px;
+  margin-left: 10px;
   margin-bottom: 5px;
 }
 footer ul {
   list-style-type: none;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 footer ul li a {
   color: #eee;
@@ -263,7 +263,8 @@ footer li ul {
 }
 
 #copyright, #design-by {
-  margin-top: 35px; 
+  margin-top: 25px;
+  padding-left: 25px;
 }
 
 
@@ -329,12 +330,18 @@ footer li ul {
   footer nav:first-child {
     background: none
   }
-
-  #copyright {
+  footer ul {
     padding-left: 20px;
   }
+  footer h5 {
+    margin-left: 20px;
+  }
+
+  #copyright {
+    padding-left: 35px;
+  }
   #design-by {
-    padding-right: 20px;
+    padding-right: 35px;
     text-align: right;
   }
 }

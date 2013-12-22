@@ -29,13 +29,17 @@
   background-image:     -ms-linear-gradient(top, #9a001f, #a92640) !important;
   background-image:      -o-linear-gradient(top, #9a001f, #a92640) !important;
   background-image:         linear-gradient(to bottom, #9a001f, #a92640) !important;
-  border: 1px solid #A92640 !important;
+  border: 1px solid #9a001f !important;
 }
 
 /* Content
 ----------------------------------------------------------------------------------------------------*/
-article a {
-    color: #9A001F;
+article a,
+article a:visited,
+article a:active,
+article a:focus,
+article a:hover {
+  color: #9A001F;
 }
 article h2 {
   color: #9A001F;
@@ -107,10 +111,6 @@ footer {
   background-image:     -ms-linear-gradient(top, #a92640, #9a001f);
   background-image:      -o-linear-gradient(top, #a92640, #9a001f);
   background-image:         linear-gradient(to bottom, #a92640, #9a001f);
-  display:inline-block;
-  /* For IE 7 */
-  zoom: 1;
-  *display: inline;
 }
 ul#representatives li.state-col-2 {
   margin-left: 90px;
@@ -121,13 +121,7 @@ footer .col-topper {
 
 
 
-/* 
-#
-##
-### Small devices (tablets, 768px and up)
-##
-#
-*/
+/* Small devices (tablets, 768px and up) */
 @media(min-width:768px){
   #product-buttons .button{
     margin-bottom: 0;

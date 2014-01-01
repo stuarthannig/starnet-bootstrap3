@@ -95,6 +95,10 @@ article h2 {
   font-size: 16px;
 }
 
+#product-buttons.products-page {
+  text-align: left;
+}
+
 aside section h4 {
   background-color: #9a001f;
 }
@@ -148,10 +152,35 @@ footer .col-topper {
     font-size: 16px;
     margin-bottom: 5px;
   }
+
+  #product-buttons.products-page > span {
+    display: block;
+    float: left;
+    width: 25%;
+    text-align: left;
+  }
+  #product-buttons.products-page .background {
+    width: 95%;
+  }
+  #product-buttons.products-page .desc {
+    margin-top: 15px;
+    width: 95%;
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
-@media(min-width:992px){}
+@media(min-width:992px){
+  #product-buttons.products-page .background {
+    width: 90%;
+  }
+  #product-buttons.products-page .desc {
+    width: 90%;
+  }
+}
 
 /* Large devices (large desktops, 1200px and up) */
-@media(min-width:1200px){}
+@media(min-width:1200px){
+  #product-buttons.products-page > span {
+    width: 24%;
+  }
+}

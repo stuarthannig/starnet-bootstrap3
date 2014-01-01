@@ -99,6 +99,65 @@ article h2 {
   text-align: left;
 }
 
+#representatives-list h3 {
+  color: #fff;
+  padding: 10px 0px 5px 10px;
+  font-weight: bold;
+  margin: 0;
+}
+#representatives-list h4 {
+  color: #666;
+  font-size: 13px;
+  font-weight: bold;;
+  padding: 5px 0 5px 10px;
+  margin: 0;
+}
+#representatives-list > li {
+  display: block;
+  background-color: #999;
+  clear: both;
+}
+#representatives-list, #representatives-list ul {
+  list-style: none;
+  padding-left: 0;
+}
+#representatives-list .sub-state {
+  background-color: #ddd;
+  margin: 0;
+  padding: 0;
+}
+#representatives-list > li > ul > li {
+  background-color: #fff;
+}
+#representatives-list .sub-state > ul > li, #representatives-list > li > ul > li {
+  padding-left: 10px;
+}
+#representatives-list .sub-state > ul > li {
+  background-color: #fff; 
+}
+#representatives-list h5 {
+  margin: 0 0 5px 0;
+  padding-top: 15px;
+  font-size: 18px;
+  text-decoration: underline;
+}
+#representatives-list dl {
+  margin-bottom: 0;
+  padding-bottom: 15px;
+  font-size: 11px;
+}
+#representatives-list dt {
+  font-weight: normal;
+  width: 80px;
+}
+#representatives-list .address-2 {
+  padding-left: 80px;
+  display: block;
+}
+#representatives-list dt {
+  float: left;
+}
+
 aside section h4 {
   background-color: #9a001f;
 }
@@ -165,6 +224,11 @@ footer .col-topper {
   #product-buttons.products-page .desc {
     margin-top: 15px;
     width: 95%;
+  }
+
+  #representatives-list > li > ul > li {
+    float: left;
+    width: 33%;
   }
 }
 

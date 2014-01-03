@@ -1,0 +1,13 @@
+/*
+Theme Name: Arrow - Prefabricated Lift Stations
+Theme URI: http://arrowstations.com
+Description: Default theme for Arrow - Prefabricated Lift Stations
+Version: 1.0
+Author: Stuart Hannig
+Author URI: http://stuarthannig.me
+Tags: arrow, prefabricated, lift, stations
+*/
+
+@import url("http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css");
+@import url("http://starnettech.com/wp-content/themes/starnet-bootstrap3/css/parent.css");
+@import url("css/custom.css");

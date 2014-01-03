@@ -1,9 +1,4 @@
-<?php
-/**
- * @package WordPress
- * @subpackage Starkers
- */
- 
+<?php 
 remove_filter ('the_content', 'wpautop');
 
 ?>
@@ -39,7 +34,7 @@ remove_filter ('the_content', 'wpautop');
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <h1 id="logo"><a href="./index.php" title="Arrow - Prefabricated Pumping Stations"><img src="./images/header.jpg" width="354" height="99" alt="Arrow logo" /></a></h1>
+        <h1 id="logo"><a href="./index.php" title="Arrow - Prefabricated Pumping Stations"><img src="./images/logo.jpg" width="354" height="99" alt="Arrow logo" /></a></h1>
         <div id="header-info" class="hidden-xs">
           <span class="manufactured-by">
             Manufactured by

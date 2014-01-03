@@ -19,7 +19,7 @@
         </small><!-- /#copyright -->
         
         <small id="design-by" class="col-xs-12 col-sm-5">
-          Another web site by <img src="./images/localdigitalmedia-logo.gif" alt="Local Digital Media Logo logo" /> <a href="http://www.localdigitalmedia.com/"><strong>Local Digital Media</strong></a>
+          Another web site by <img src="/images/localdigitalmedia-logo.gif" alt="Local Digital Media Logo logo" /> <a href="http://www.localdigitalmedia.com/"><strong>Local Digital Media</strong></a>
         </small><!-- /#design-by -->
       </div>
     </footer>

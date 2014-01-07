@@ -59,7 +59,7 @@ remove_filter ('the_content', 'wpautop');
             <a href=".#" class="dropdown-toggle" data-toggle="dropdown">Representatives <b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li><a href="/representatives/#Illinois">Illinois</a></li>
-              <li><a href="/representatives/@Indiana">Indiana</a></li>
+              <li><a href="/representatives/#Indiana">Indiana</a></li>
               <li><a href="/representatives/#Iowa">Iowa</a></li>
               <li><a href="/representatives/#Michigan">Michigan</a></li>
               <li><a href="/representatives/#Minnesota">Minnesota</a></li>

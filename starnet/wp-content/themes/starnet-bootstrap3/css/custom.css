@@ -57,6 +57,49 @@ a.ul-certified, a:hover.ul-certified {
   background-color: #f1f1f1;
 }
 
+.products-featured {
+  margin-bottom: 25px;
+  overflow: auto;
+}
+.products-featured p {
+  width: 85%;
+}
+.products-featured img {
+  float: left;
+  margin-right: 15px;
+}
+
+.partners {
+  list-style: none;
+}
+.partners li {
+  float: left;
+  min-width: 305px;
+  text-align: center;
+  margin: 0 0 50px 0;
+}
+
+.contact-info {
+  width: 50%;
+  float: left;
+}
+.contact-map {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+.contact-phone {
+  display: block;
+  float: left;
+  width: 50%;
+}
+.wpcf7-form {
+  background-color: #F4F4F4;
+  padding: 10px;
+}
+
+
+
 
 
 /* 

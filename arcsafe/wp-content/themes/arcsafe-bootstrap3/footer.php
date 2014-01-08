@@ -10,7 +10,7 @@
             <li><a href="/product-information/">Product Information</a></li>
             <li><a href="/site-map/">Site Map</a></li>
           </ul>
-        </nav><!-- /.site-links-->
+        </nav><!-- /#site-links -->
       </div>
 
       <div class="row">

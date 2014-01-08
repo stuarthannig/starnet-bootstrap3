@@ -8,36 +8,37 @@
           <ul>
             <li><a href="/index.php">Home</a></li>
             <li><a href="/products/">Products</a></li>
-            <li><a href="/representatives/">Representatives</a></li>
-            <li><a href="/site-map/">Site Map</a></li>
+  					<li><a href="/events/">Events</a></li>
+  					<li><a href="/contact/">Contact</a></li>
+  					<li><a href="/site-map/">Site Map</a></li>
           </ul>
         </nav><!-- /#site-links -->
         
         <nav id="products" class="col-xs-12 col-sm-3">
           <h5>Products</h5>
           <ul>
-            <li><a href="/products/module-l55/">Module L55</a></li>
-            <li><a href="/products/module-l88/">Module L88</a></li>
-            <li><a href="/products/module-g1020v/">Module G1020V</a></li>
-            <li><a href="/products/module-mcx/">Module MCX</a></li>
+            <li>
+              <a href="http://arrowstations.com/">Arrow Stations</a>
+              <ul>
+                <li><a href="http://arrowstations.com/products/module-l55/">Model L55</a></li>
+                <li><a href="http://arrowstations.com/products/module-l88/">Model L88</a></li>
+                <li><a href="http://arrowstations.com/products/module-g1020v/">Model G1020V</a></li>
+                <li><a href="http://arrowstations.com/products/module-mcx/">Model MCX</a></li>
+              </ul>
+            </li>
+  					<li><a href="http://arcsafe.com/">ArcSafe&#174; PCC</a></li>
           </ul>
         </nav><!-- /#products -->
         
-        <nav id="representatives" class="col-xs-12 col-sm-6">
-          <h5>Representatives</h5>
-          <ul id="representatives">
-            <li class="state-col-1"><a href="/representatives/#Illinois">Illinois</a></li>
-            <li class="state-col-1"><a href="/representatives/#Indiana">Indiana</a></li>
-            <li class="state-col-1"><a href="/representatives/#Iowa">Iowa</a></li>
-            <li class="state-col-1"><a href="/representatives/#Michigan">Michigan</a></li>
-            <li class="state-col-1"><a href="/representatives/#Minnesota">Minnesota</a></li>
-            
-            <li class="state-col-2 col-topper"><a href="/representatives/#Nebraska">Nebraska</a></li>
-            <li class="state-col-2"><a href="/representatives/#North Dakota">North Dakota</a></li>
-            <li class="state-col-2"><a href="/representatives/#South Dakota">South Dakota</a></li>
-            <li class="state-col-2"><a href="/representatives/#Wisconsin">Wisconsin</a></li>
+        <nav id="contact" class="col-xs-12 col-sm-6">
+          <h5>Contact Office</h5>
+          <ul id="contact">
+            <li>262.886.0228 (Phone)</li>
+            <li>262.886.0221 (Fax)</li>
+            <li>P.O. Box 374</li>
+            <li>Franksville, WI 53126-0374 </li>
           </ul>
-        </nav><!-- /#representatives -->
+        </nav><!-- /#contact -->
       </div>
 
       <div class="row">

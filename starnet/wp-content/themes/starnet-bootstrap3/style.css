@@ -1,0 +1,12 @@
+/*
+Theme Name: Starnet Technologies, Inc.
+Theme URI: http://starnettech.com
+Description: Default theme for Starnet Technologies, Inc.
+Version: 1.0
+Author: Stuart Hannig
+Author URI: http://stuarthannig.me
+*/
+
+@import url("http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css");
+@import url("css/parent.css");
+@import url("css/custom.css");

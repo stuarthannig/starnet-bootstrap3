@@ -64,6 +64,10 @@ a.ul-certified, a:hover.ul-certified {
 .products-featured p {
   margin-top: 5px;
 }
+.products-featured img {
+  max-width: 100%;
+  height: auto;
+}
 
 .partners {
   list-style: none;

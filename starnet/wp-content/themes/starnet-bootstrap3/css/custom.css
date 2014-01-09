@@ -115,11 +115,15 @@ a.ul-certified, a:hover.ul-certified {
     display: inline-block !important;
   }
 
+  .products-featured {
+    margin-bottom: 50px;
+  }
   .products-featured img {
     float: left;
     margin-right: 15px;
   }
   .products-featured p {
+    padding-top: 15px;
     margin-top: 0;
   }
 
@@ -142,7 +146,7 @@ a.ul-certified, a:hover.ul-certified {
 */
 @media(min-width:992px){
   .products-featured {
-    margin-bottom: 50px;
+    margin-bottom: 75px;
   }
   .products-featured p {
     max-width: 85%;

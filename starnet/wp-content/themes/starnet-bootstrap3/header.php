@@ -34,7 +34,7 @@ remove_filter ('the_content', 'wpautop');
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <h1 id="logo"><a href="/index.php" title="Starnet Technologies, Inc."><img src="/images/logo.png" width="305" height="100" alt="Starnet Technologies, Inc. logo" /></a></h1>
+        <h1 id="logo"><a href="/index.php" title="Starnet Technologies, Inc."><img src="/images/logo.png" width="300" height="100" alt="Starnet Technologies, Inc. logo" /></a></h1>
       </div>
       <nav class="navbar-collapse collapse">
         <ul class="nav navbar-nav">

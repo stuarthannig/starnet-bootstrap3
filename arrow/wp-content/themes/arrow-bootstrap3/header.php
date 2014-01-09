@@ -34,11 +34,11 @@ remove_filter ('the_content', 'wpautop');
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <h1 id="logo"><a href="/index.php" title="Arrow - Prefabricated Pumping Stations"><img src="/images/logo.jpg" width="354" height="99" alt="Arrow logo" /></a></h1>
+        <h1 id="logo"><a href="/index.php" title="Arrow - Prefabricated Pumping Stations"><img src="/images/logo.png" width="250" height="100" alt="Arrow logo" /></a></h1>
         <div id="header-info" class="hidden-xs">
           <span class="manufactured-by">
             Manufactured by
-            <a href="http://www.starnettech.com/"><img src="/images/starnet-logo.png" alt="Starnet Technologies, Inc." width="150" height="49" /></a>
+            <a href="http://www.starnettech.com/"><img src="/images/starnet-logo.png" alt="Starnet Technologies, Inc." width="150" height="50" /></a>
           </span>
         </div><!-- /#header-info -->
       </div>

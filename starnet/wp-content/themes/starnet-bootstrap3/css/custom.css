@@ -51,7 +51,7 @@ a.ul-certified, a:hover.ul-certified {
     margin: 0;
 }
 #calendar .event-item {
-  padding-bottom: 10px;
+  padding-bottom: 0;
 }
 #calendar .even {
   background-color: #f1f1f1;

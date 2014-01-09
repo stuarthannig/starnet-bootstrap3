@@ -16,9 +16,9 @@ get_header();
       <h4>
         Upcoming Events
       </h4>
-      <p>
+      <div id="calendar">
         <?php echo do_shortcode('[events limit=3 time=start]'); ?>
-      </p>
+      </div>
     </section>
     <section class="col-xs-12 col-sm-6 col-md-12">
       <h4>

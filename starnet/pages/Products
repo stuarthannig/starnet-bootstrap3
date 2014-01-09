@@ -1,0 +1,30 @@
+<h2>Products</h2>
+
+<div class="products-featured">
+  <a href="http://www.arrowstations.com/" target="_blank"><img src="/images/partners/arrow.png" width="320" height="84" /></a>
+  <p>
+    Arrow prefabricated "walk-in" pumping stations are available in several pre-engineered models as well as a customizable version. Visit <a href="http://arrowstations.com" target="_blank">ArrowStations.com</a> to find out who your local Arrow representative is.
+  </p>
+</div>
+<div class="products-featured">
+  <a href="http://www.arcsafe.com/" target="_blank"><img src="/images/partners/arcsafe.png" width="320" height="84" /></a>
+  <p>
+    Our ArcSafe&#174; pump control center (PCC) is a pre-engineered control system that is designed to make it easier to comply with safety regulations. Visit <a href="http://arcsafe.com" target="_blank">ArcSafe.com</a> for more information.
+  </p>
+</div>
+
+<?php
+/*
+<h3>Our Partners</h3>
+<div>
+  <ul class="partners">
+    <li style="width:306px"><a href="http://www.axis.com/" target="_blank"><img src="/images/partners/axis.jpg" title="Axis Communications" /></a>
+    <li><a href="http://www.contegra.com/" target="_blank"><img src="/images/partners/contegra.gif" title="Contegra" /></a>
+    <li style="width:322px"><a href="http://www.eaton.com/Eaton/ProductsServices/ProductsbyName/Cutler-Hammer/index.htm" target="_blank"><img src="/images/partners/cutler-hammer.gif" title="Cutler-Hammer" /></a>
+    <li><a href="http://www.dell.com/" target="_blank"><img src="/images/partners/dell.jpg" title="Dell" /></a>
+    <li style="width:295px"><a href="http://www.fanucfa.com" target="_blank"><img src="/images/partners/ge.jpg" title="GE/Fanuc" /></a>
+    <li><a href="http://www.wonderware.com/" target="_blank"><img src="/images/partners/wonderware.jpg" title="Wonderware" /></a>
+  </ul>
+</div>
+*/
+?>

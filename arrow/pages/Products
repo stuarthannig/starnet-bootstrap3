@@ -1,0 +1,55 @@
+<p id="product-buttons" class="products-page">
+  
+  <span class="button">
+    <a href="/products/module-l55/">
+      <span class="background">
+        <img src="/images/products/l55/l55-link.jpg" width="150" height="158" />
+        <span class="brand">Arrow Model</span>
+        <span class="model">L55</span>
+      </span>
+    </a>
+    <span class="desc hidden-xs">
+      The Arrow Model L55 is a complete prefabricated “walk-in” control panel for sewage pumping stations. This product is designed to be a cost effective alternative that is superior to typical outdoor panels. 
+    </span>
+  </span><!-- /.button -->
+
+  <span class="button">
+    <a href="/products/module-l88/">
+      <span class="background">
+        <img src="/images/products/l88/l88-link.jpg" width="150" height="158" />
+        <span class="brand">Arrow Model</span>
+        <span class="model">L88</span>
+      </span>
+    </a>
+    <span class="desc hidden-xs">
+      The Arrow Model L88 is a complete prefabricated “walk-in” control/valve module for sewage pumping stations. This product is designed to eliminate hazards associated with underground valve vaults by providing above ground housing of the valves. The savings from eliminating the underground vault offset the cost of the building.
+    </span>
+  </span><!-- /.button -->
+
+  <span class="button">
+    <a href="/products/module-g1020v/">
+      <span class="background">
+        <img src="/images/products/g1020v/g1020v-link.jpg" width="150" height="158" />
+        <span class="brand">Arrow Model</span>
+        <span class="model">G1020V</span>
+      </span>
+    </a>
+    <span class="desc hidden-xs">
+      The Arrow Model G1020V is a complete prefabricated “walk-in” control/valve/generator module. This all encompassing design provides the advantages of the ArcSafe® PCC, above ground valve vault and indoor enclosed generator in one cost effective package.
+    </span>
+  </span><!-- /.button -->
+
+  <span class="button">
+    <a href="/products/module-mcx/">
+      <span class="background">
+        <img src="/images/products/mcx/mcx-link.jpg" width="150" height="158" />
+        <span class="brand">Arrow Model</span>
+        <span class="model">MCX</span>
+      </span>
+    </a>
+    <span class="desc hidden-xs">
+      The Arrow Custom MCX is a complete prefabricated “walk-in” MCC module for higher horsepower applications requiring conventional motor control centers.
+    </span>
+  </span><!-- /.button -->
+
+</p> 

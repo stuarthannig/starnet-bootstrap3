@@ -1,0 +1,59 @@
+<!-- Carousel -->
+<div id="carousel" class="carousel slide hidden-xs" data-ride="carousel">
+  <div class="carousel-inner">
+
+    <div class="item active">
+      <img src="/images/slider-1.jpg">
+      <div class="carousel-caption">
+        <h3>Custom and standardized controls</h3>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="/images/slider-2.jpg">
+      <div class="carousel-caption">
+        <h3>Panels to fit your application</h3>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="/images/slider-3.jpg">
+      <div class="carousel-caption">
+        <h3>High quality custom CAD drawings</h3>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="/images/slider-4.jpg">
+      <div class="carousel-caption">
+        <h3>Programming and integration</h3>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="/images/slider-5.jpg">
+      <div class="carousel-caption">
+        <h3>Services for the Water and Wastewater market</h3>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="/images/slider-6.jpg">
+      <div class="carousel-caption">
+        <h3>Standard products designed for safety: Arrow&#8482; &amp; ArcSafe&reg;</h3>
+      </div>
+    </div>
+
+  </div><!-- /.carousel-inner -->
+</div><!-- /.carousel -->
+
+<h2>Welcome to Starnet Technologies, Inc.</h2>
+<p>
+  We are located in the Caledonia, Wisconsin and provide services and support to the Water and Wastewater industries.  The company was founded in 1995, since then Starnet has expanded to provide: engineering, proposals, estimates, custom CAD drawings, programming, system integration, manufacturing of custom &amp; standard controls, and field services.  Always looking forward, we continue to provide innovative technologies for water, wastewater, stormwater, SCADA, and telemetry systems.
+</p>
+<p>
+  We place an emphasis on safety; As such, we have developed standard products which allow for ease of conformance with growing Federal Regulations.  Please visit our <a href="http://arrowstations.com/" yarget="_blank">Arrow&#0153;</a> and <a href="http://arcsafe.com/" target="_blank">ArcSafe&reg;</a> websites for more information on some of these products.  For additional information or other inquiries feel free to <a href="/contact/">contact us</a>.
+</p>
+<a class="ul-certified" href="http://www.ul.com/" target="_blank">
+  <div><img src="/images/ul-certified.png" /><span class="hidden-xs">Certified to manufacture and serialize industrial control panels by UL.</div>
+</a>
